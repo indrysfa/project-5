@@ -4,6 +4,179 @@
     height: 50px;
 }
 
+/*===============Jumbotron================*/
+
+.jumbotron{
+    background-image: url(img/background1.jpg);
+}
+
+.jumbotron .container{
+    height: 450px;
+    width: 650px;
+    background-repeat: no-repeat;
+    background-position-y: 0;
+}
+
+.jumbotron img{
+    width: 250px;
+    height: 500px;
+}
+
+/*===============Rating================*/
+
+#rating{
+    padding: 30px 0 50px 0;
+}
+
+/*===============Specifications================*/
+
+#spesifikasi .container-fluid .row h2{
+    padding: 30px 0 30px 0;
+    background-color: #E0FFFF;
+}
+
+/*===============Konten================*/
+
+#konten .container .row h1{
+    padding-top: 100px;
+}
+
+/*===============Video================*/
+
+#video{
+    background-color: #DCDCDC;
+    padding: 30px 0 30px 0;
+}
+
+/*===============Testimonial================*/
+#testimonial h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 25px 0 50px;
+}
+#testimonial h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #ffdc12;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+#testimonial .carousel {
+	width: 650px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+#testimonial .carousel .item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 340px;
+}
+#testimonial .carousel .item a {
+	color: #eb7245;
+}
+#testimonial .carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+#testimonial .carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+#testimonial .carousel .testimonial {	
+	padding: 30px 0 10px;
+}
+#testimonial .carousel .overview {	
+	text-align: center;
+	padding-bottom: 5px;
+}
+#testimonial .carousel .overview b {
+	color: #333;
+	font-size: 15px;
+	text-transform: uppercase;
+	display: block;	
+	padding-bottom: 5px;
+}
+#testimonial .carousel .star-rating i {
+	font-size: 18px;
+	color: #ffdc12;
+}
+#testimonial .carousel .carousel-control {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+    background: #999;
+    text-shadow: none;
+	top: 4px;
+}
+#testimonial .carousel-control i {
+	font-size: 20px;
+	margin-right: 2px;
+}
+#testimonial .carousel-control.left {
+	left: auto;
+	right: 40px;
+}
+#testimonial .carousel-control.right i {
+	margin-right: -2px;
+}
+#testimonial .carousel .carousel-indicators {
+	bottom: 15px;
+}
+#testimonial .carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	margin: 1px 5px;
+	border-radius: 50%;
+}
+#testimonial .carousel-indicators li {	
+	background: #e2e2e2;
+	border-color: transparent;
+}
+#testimonial .carousel-indicators li.active {
+	border: none;
+	background: #888;		
+}
+
+/*===============Screen Capture================*/
+
+#capture{
+    background-color: #DCDCDC;
+    padding: 30px 0 30px 0;
+}
+
+#capture img{
+    width: 250px;
+    height: 500px;
+}
+
+#capture .container-fluid{
+    padding: 30px 0 30px 0;
+}
+
+/*===============Price List================*/
+
+#price{
+    padding: 30px 0 30px 0;
+}
+
+#price .container{
+    padding: 30px 0 30px 0;
+}
+
 /*===============Footer================*/
 footer{
 	padding-top: 20px;
@@ -12,5 +185,5 @@ footer{
 
 footer img{
 	width: 100px;
-	height: 100px;
+    height: 100px;
 }
