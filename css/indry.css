@@ -7,20 +7,22 @@
 /*===============Jumbotron================*/
 
 .jumbotron{
-    background-image: url(img/background1.jpg);
+    background-image: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron .container{
-    height: 450px;
-    width: 650px;
+    /* height: 450px;
+    width: 650px; */
     background-repeat: no-repeat;
     background-position-y: 0;
 }
 
-.jumbotron img{
+/* .jumbotron img{
     width: 250px;
     height: 500px;
-}
+} */
 
 /*===============Rating================*/
 
@@ -69,10 +71,12 @@
 	right: 0;
 	bottom: -10px;
 }
+@media(min-width:700px){
 #testimonial .carousel {
 	width: 650px;
 	margin: 0 auto;
 	padding-bottom: 50px;
+}
 }
 #testimonial .carousel .item {
 	color: #999;
