@@ -7,8 +7,8 @@ Team Project Web ke 5
 ![16](https://user-images.githubusercontent.com/61085159/95182348-ac582200-07ee-11eb-82cd-d9f6813afcbe.png)
 ![17](https://user-images.githubusercontent.com/61085159/95182355-af531280-07ee-11eb-9946-a4ac1916a31f.png)
 
-Vendor:
+Vendor:<br>
 https://getbootstrap.com/docs/4.5/getting-started/introduction/
-https://fontawesome.com/v4.7.0/icons/
+<br> https://fontawesome.com/v4.7.0/icons/
 
 Support author https://saweria.co/donate/sailingxlt
